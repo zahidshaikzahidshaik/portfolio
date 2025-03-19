@@ -46,6 +46,13 @@ export default function Header() {
     // Set the initial theme
     const initialTheme = savedTheme || systemPreference;
     setTheme(initialTheme);
+    
+    // Apply theme to the document
+    if (initialTheme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   }, []);
 
   // Toggle theme function

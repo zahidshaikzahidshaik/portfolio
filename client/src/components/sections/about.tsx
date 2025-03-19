@@ -48,18 +48,11 @@ export default function AboutSection() {
               My web development career began with an interest in user interfaces and interactive experiences. I've collaborated with clients from startups to large corporations, assisting them in creating digital products that users enjoy.
             </p>
             
-            <div className="grid grid-cols-2 gap-4 mb-8">
-              <div>
-                <h3 className="font-bold text-primary mb-2">Education</h3>
-                <p className="text-slate-700 dark:text-slate-300">Bachelor of Technology (B.Tech)</p>
-                <p className="text-slate-600 dark:text-slate-400 text-sm">Computer Science Engineering</p>
-                <p className="text-slate-600 dark:text-slate-400 text-sm">Jawaharlal Nehru Technological University Anantapur</p>
-              </div>
-              <div>
-                <h3 className="font-bold text-primary mb-2">Experience</h3>
-                <p className="text-slate-700 dark:text-slate-300">5+ Years</p>
-                <p className="text-slate-600 dark:text-slate-400 text-sm">Frontend Development</p>
-              </div>
+            <div className="mb-8">
+              <h3 className="font-bold text-primary mb-2">Education</h3>
+              <p className="text-slate-700 dark:text-slate-300">Bachelor of Technology (B.Tech)</p>
+              <p className="text-slate-600 dark:text-slate-400 text-sm">Computer Science Engineering</p>
+              <p className="text-slate-600 dark:text-slate-400 text-sm">Jawaharlal Nehru Technological University Anantapur</p>
             </div>
             
             <Button 

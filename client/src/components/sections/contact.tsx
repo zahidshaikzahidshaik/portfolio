@@ -25,9 +25,7 @@ import {
 } from "lucide-react";
 import { 
   FaGithub, 
-  FaLinkedinIn, 
-  FaTwitter, 
-  FaDribbble 
+  FaLinkedinIn
 } from "react-icons/fa";
 
 // Form schema
@@ -120,7 +118,7 @@ export default function ContactSection() {
                       <FormLabel className="font-medium">Full Name</FormLabel>
                       <FormControl>
                         <Input 
-                          placeholder="John Doe" 
+                          placeholder="Your full name" 
                           {...field} 
                           className="px-4 py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-primary"
                         />
@@ -213,7 +211,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-bold mb-1">Location</h4>
-                    <p className="text-slate-600 dark:text-slate-400">San Francisco, CA, United States</p>
+                    <p className="text-slate-600 dark:text-slate-400">Chennai, Tamil Nadu, India</p>
                   </div>
                 </div>
                 
@@ -224,10 +222,10 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-bold mb-1">Email</h4>
                     <a 
-                      href="mailto:hello@johndoe.com" 
+                      href="mailto:shaikzahidhussain6@gmail.com" 
                       className="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
                     >
-                      hello@johndoe.com
+                      shaikzahidhussain6@gmail.com
                     </a>
                   </div>
                 </div>
@@ -252,7 +250,7 @@ export default function ContactSection() {
                 <h4 className="font-bold mb-4">Follow Me</h4>
                 <div className="flex gap-4">
                   <a 
-                    href="https://github.com" 
+                    href="https://github.com/shaikzahidhussain" 
                     target="_blank" 
                     rel="noreferrer"
                     className="bg-slate-100 dark:bg-slate-700 p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
@@ -261,31 +259,13 @@ export default function ContactSection() {
                     <FaGithub className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://linkedin.com" 
+                    href="https://www.linkedin.com/in/shaikzahidhussain" 
                     target="_blank" 
                     rel="noreferrer"
                     className="bg-slate-100 dark:bg-slate-700 p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
                     aria-label="LinkedIn"
                   >
                     <FaLinkedinIn className="h-5 w-5" />
-                  </a>
-                  <a 
-                    href="https://twitter.com" 
-                    target="_blank" 
-                    rel="noreferrer"
-                    className="bg-slate-100 dark:bg-slate-700 p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
-                    aria-label="Twitter"
-                  >
-                    <FaTwitter className="h-5 w-5" />
-                  </a>
-                  <a 
-                    href="https://dribbble.com" 
-                    target="_blank" 
-                    rel="noreferrer"
-                    className="bg-slate-100 dark:bg-slate-700 p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
-                    aria-label="Dribbble"
-                  >
-                    <FaDribbble className="h-5 w-5" />
                   </a>
                 </div>
               </div>
