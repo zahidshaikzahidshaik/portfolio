@@ -43,7 +43,26 @@ next-env.d.ts
 replit.nix
 replit_zip_error_log.txt
 .config
+.upm
+.breakpoints
 
 # Database
 *.sqlite
 *.sqlite3
+
+# Package Lock
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# Temporary files
+.tmp
+.temp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
