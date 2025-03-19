@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 
 export default function HeroSection() {
-  const phrases = ["Frontend Developer", "UI/UX Designer", "React Specialist"];
+  const phrases = ["Frontend Developer", "Python Engineer", "Machine Learning Enthusiast", "React Specialist"];
   const { text } = useTypingEffect({ phrases });
   
   return (
@@ -32,7 +32,7 @@ export default function HeroSection() {
               <span className="inline-block w-0.5 h-6 bg-primary ml-1 animate-pulse"></span>
             </h2>
             <p className="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-lg">
-              I build exceptional digital experiences that are fast, accessible, and responsive. Focused on creating clean, efficient code that drives user engagement.
+              With 5+ years of experience, I specialize in building responsive web applications, Python-based solutions, and data analysis projects. I'm passionate about creating clean, efficient code that solves real-world problems.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button 
