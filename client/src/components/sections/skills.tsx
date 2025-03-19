@@ -12,12 +12,13 @@ import {
   FaJs, 
   FaHtml5, 
   FaCss3Alt, 
-  FaSass, 
-  FaNodeJs, 
+  FaPython, 
+  FaDatabase, 
   FaGitAlt, 
-  FaFigma,
+  FaJava,
   FaCertificate
 } from "react-icons/fa";
+import { SiApachespark, SiMysql, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 // Map of tool names to their respective icons
 const toolIcons: Record<string, JSX.Element> = {
@@ -25,10 +26,12 @@ const toolIcons: Record<string, JSX.Element> = {
   "JavaScript": <FaJs className="text-4xl text-yellow-500" />,
   "HTML5": <FaHtml5 className="text-4xl text-orange-500" />,
   "CSS3": <FaCss3Alt className="text-4xl text-blue-500" />,
-  "Sass": <FaSass className="text-4xl text-pink-500" />,
-  "Node.js": <FaNodeJs className="text-4xl text-green-600" />,
-  "Git": <FaGitAlt className="text-4xl text-orange-600" />,
-  "Figma": <FaFigma className="text-4xl text-purple-500" />
+  "Python": <FaPython className="text-4xl text-blue-700" />,
+  "PySpark": <SiApachespark className="text-4xl text-orange-600" />,
+  "MySQL": <SiMysql className="text-4xl text-blue-600" />,
+  "Next.js": <SiNextdotjs className="text-4xl text-black dark:text-white" />,
+  "Tailwind CSS": <SiTailwindcss className="text-4xl text-cyan-500" />,
+  "Java": <FaJava className="text-4xl text-red-600" />
 };
 
 export default function SkillsSection() {

@@ -13,11 +13,13 @@ export interface Certification {
 }
 
 export const technicalSkills: TechnicalSkill[] = [
-  { name: "React.js", percentage: 90 },
-  { name: "JavaScript / TypeScript", percentage: 85 },
+  { name: "Python", percentage: 90 },
+  { name: "JavaScript", percentage: 85 },
   { name: "HTML / CSS", percentage: 95 },
   { name: "Next.js", percentage: 80 },
-  { name: "Node.js", percentage: 75 }
+  { name: "PySpark", percentage: 80 },
+  { name: "MySQL", percentage: 80 },
+  { name: "React.js", percentage: 85 }
 ];
 
 export const toolSkills: ToolSkill[] = [
@@ -25,14 +27,17 @@ export const toolSkills: ToolSkill[] = [
   { name: "JavaScript", icon: "js" },
   { name: "HTML5", icon: "html5" },
   { name: "CSS3", icon: "css3-alt" },
-  { name: "Sass", icon: "sass" },
-  { name: "Node.js", icon: "node-js" },
-  { name: "Git", icon: "git-alt" },
-  { name: "Figma", icon: "figma" }
+  { name: "Python", icon: "python" },
+  { name: "PySpark", icon: "apache-spark" },
+  { name: "MySQL", icon: "mysql" },
+  { name: "Next.js", icon: "nextjs" },
+  { name: "Tailwind CSS", icon: "tailwindcss" },
+  { name: "Java", icon: "java" }
 ];
 
 export const certifications: Certification[] = [
-  { name: "AWS Certified Developer" },
-  { name: "Google UX Design Professional" },
-  { name: "Meta Frontend Developer" }
+  { name: "Python Programming Internship - MotionCut" },
+  { name: "Cloud Computing - NPTEL" },
+  { name: "Java Internship - MotionCut" },
+  { name: "Machine Learning Internship - Bharat Intern" }
 ];
