@@ -4,9 +4,7 @@ import { Button } from "@/components/ui/button";
 import { useTypingEffect } from "@/hooks/use-typing-effect";
 import { 
   FaGithub, 
-  FaLinkedin, 
-  FaTwitter, 
-  FaDribbble 
+  FaLinkedin
 } from "react-icons/fa";
 
 export default function HeroSection() {
@@ -27,7 +25,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Hello, I'm <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-purple-600 text-transparent bg-clip-text">John Doe</span>
+              Hello, I'm <span className="bg-gradient-to-r from-blue-500 via-pink-500 to-purple-600 text-transparent bg-clip-text">Zahid Hussain</span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-slate-700 dark:text-slate-300 mb-6">
               <span className="font-mono">{text}</span>
@@ -53,7 +51,7 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center gap-4 mt-8">
               <a 
-                href="https://github.com" 
+                href="https://github.com/shaikzahidhussain" 
                 target="_blank" 
                 rel="noreferrer"
                 className="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
@@ -62,31 +60,13 @@ export default function HeroSection() {
                 <FaGithub className="text-2xl" />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/shaikzahidhussain" 
                 target="_blank" 
                 rel="noreferrer"
                 className="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin className="text-2xl" />
-              </a>
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noreferrer"
-                className="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
-                aria-label="Twitter"
-              >
-                <FaTwitter className="text-2xl" />
-              </a>
-              <a 
-                href="https://dribbble.com" 
-                target="_blank" 
-                rel="noreferrer"
-                className="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary transition-colors"
-                aria-label="Dribbble"
-              >
-                <FaDribbble className="text-2xl" />
               </a>
             </div>
           </motion.div>
@@ -100,7 +80,7 @@ export default function HeroSection() {
               <div className="absolute top-0 left-0 right-0 bottom-0 bg-white dark:bg-slate-900 rounded-full m-1"></div>
               <img 
                 src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" 
-                alt="John Doe" 
+                alt="Zahid Hussain" 
                 className="w-60 h-60 md:w-76 md:h-76 object-cover rounded-full"
               />
             </div>

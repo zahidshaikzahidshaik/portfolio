@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { useTheme } from "@/lib/theme-provider";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -32,7 +31,41 @@ const NavItem = ({ href, label, isMobile = false, onClick }: NavItemProps) => {
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const { theme, toggleTheme } = useTheme();
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+
+  // Initialize theme based on localStorage or system preference
+  useEffect(() => {
+    // Check if user has a theme preference stored
+    const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
+    
+    // Check system preference if no saved theme
+    const systemPreference = window.matchMedia("(prefers-color-scheme: dark)").matches 
+      ? "dark" 
+      : "light";
+    
+    // Set the initial theme
+    const initialTheme = savedTheme || systemPreference;
+    setTheme(initialTheme);
+  }, []);
+
+  // Toggle theme function
+  const toggleTheme = () => {
+    setTheme((currentTheme) => {
+      const newTheme = currentTheme === "light" ? "dark" : "light";
+      
+      // Save to localStorage
+      localStorage.setItem("theme", newTheme);
+      
+      // Update document class for Tailwind dark mode
+      if (newTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+      
+      return newTheme;
+    });
+  };
 
   // Handle scroll effect for header
   useEffect(() => {
