@@ -15,7 +15,7 @@ interface NavItemProps {
 const NavItem = ({ href, label, isMobile = false, onClick }: NavItemProps) => {
   return (
     <Link href={href}>
-      <a
+      <div
         className={`${
           isMobile
             ? "py-2 px-4 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-md transition-colors w-full block"
@@ -24,7 +24,7 @@ const NavItem = ({ href, label, isMobile = false, onClick }: NavItemProps) => {
         onClick={onClick}
       >
         {label}
-      </a>
+      </div>
     </Link>
   );
 };
@@ -62,12 +62,12 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/">
-          <a className="text-2xl font-bold flex items-center gap-2">
+          <div className="text-2xl font-bold flex items-center gap-2 cursor-pointer">
             <span className="text-primary">John</span>
             <span className="text-slate-800 dark:text-white">Doe</span>
             <span className="text-primary text-xl">{"{"}</span>
             <span className="text-pink-500 text-xl">{"}"}</span>
-          </a>
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
