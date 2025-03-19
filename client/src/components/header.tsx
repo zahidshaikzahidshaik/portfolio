@@ -63,8 +63,8 @@ export default function Header() {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/">
           <div className="text-2xl font-bold flex items-center gap-2 cursor-pointer">
-            <span className="text-primary">John</span>
-            <span className="text-slate-800 dark:text-white">Doe</span>
+            <span className="text-primary">Shaik</span>
+            <span className="text-slate-800 dark:text-white">Zahid Hussain</span>
             <span className="text-primary text-xl">{"{"}</span>
             <span className="text-pink-500 text-xl">{"}"}</span>
           </div>

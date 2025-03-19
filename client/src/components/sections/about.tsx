@@ -41,18 +41,19 @@ export default function AboutSection() {
             <div className="w-20 h-1 bg-primary mb-6"></div>
             
             <p className="text-slate-700 dark:text-slate-300 mb-6">
-              I'm a passionate frontend developer with 5+ years of experience building modern and responsive web applications. I specialize in React.js, Next.js, and modern CSS frameworks like Tailwind CSS.
+              I'm a passionate frontend developer with 5+ years of experience in developing modern and responsive web applications. My specialty lies in React.js, Next.js, Apache Spark, MySQL, HTML/CSS, Python and modern CSS frameworks such as Tailwind CSS.
             </p>
             
             <p className="text-slate-700 dark:text-slate-300 mb-6">
-              My journey in web development started with a fascination for user interfaces and interactive experiences. I've worked with clients ranging from startups to large corporations, helping them build digital products that users love.
+              My web development career began with an interest in user interfaces and interactive experiences. I've collaborated with clients from startups to large corporations, assisting them in creating digital products that users enjoy.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mb-8">
               <div>
                 <h3 className="font-bold text-primary mb-2">Education</h3>
-                <p className="text-slate-700 dark:text-slate-300">BSc in Computer Science</p>
-                <p className="text-slate-600 dark:text-slate-400 text-sm">University of Technology</p>
+                <p className="text-slate-700 dark:text-slate-300">Bachelor of Technology (B.Tech)</p>
+                <p className="text-slate-600 dark:text-slate-400 text-sm">Computer Science Engineering</p>
+                <p className="text-slate-600 dark:text-slate-400 text-sm">Jawaharlal Nehru Technological University Anantapur</p>
               </div>
               <div>
                 <h3 className="font-bold text-primary mb-2">Experience</h3>

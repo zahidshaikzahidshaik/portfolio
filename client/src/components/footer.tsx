@@ -14,12 +14,12 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div>
             <Link href="/">
-              <a className="text-2xl font-bold flex items-center gap-2">
-                <span className="text-primary">John</span>
-                <span className="text-white">Doe</span>
+              <div className="text-2xl font-bold flex items-center gap-2 cursor-pointer">
+                <span className="text-primary">Shaik</span>
+                <span className="text-white">Zahid Hussain</span>
                 <span className="text-primary text-xl">{"{"}</span>
                 <span className="text-pink-500 text-xl">{"}"}</span>
-              </a>
+              </div>
             </Link>
             <p className="text-slate-400 mt-2 max-w-md">
               Creating exceptional digital experiences through clean, efficient code and thoughtful design.
@@ -61,7 +61,7 @@ export default function Footer() {
 
           <div className="flex gap-4">
             <a 
-              href="https://github.com" 
+              href="https://github.com/zahidshaikzahidshaik" 
               target="_blank" 
               rel="noreferrer"
               className="text-slate-300 hover:text-primary transition-colors"
@@ -70,7 +70,7 @@ export default function Footer() {
               <FaGithub className="text-xl" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/shaikzahidhussain" 
               target="_blank" 
               rel="noreferrer"
               className="text-slate-300 hover:text-primary transition-colors"
@@ -78,29 +78,11 @@ export default function Footer() {
             >
               <FaLinkedin className="text-xl" />
             </a>
-            <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noreferrer"
-              className="text-slate-300 hover:text-primary transition-colors"
-              aria-label="Twitter"
-            >
-              <FaTwitter className="text-xl" />
-            </a>
-            <a 
-              href="https://dribbble.com" 
-              target="_blank" 
-              rel="noreferrer"
-              className="text-slate-300 hover:text-primary transition-colors"
-              aria-label="Dribbble"
-            >
-              <FaDribbble className="text-xl" />
-            </a>
           </div>
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-slate-400">&copy; {new Date().getFullYear()} John Doe. All rights reserved.</p>
+          <p className="text-slate-400">&copy; {new Date().getFullYear()} Shaik Zahid Hussain. All rights reserved.</p>
           <p className="text-slate-400 mt-4 md:mt-0 flex items-center gap-1">
             Made with <FaHeart className="text-red-500" /> and React.js
           </p>
